@@ -905,10 +905,6 @@
       display: block
     }
 
-    .unified_container .row .panel-default #api .localAccount .entry .entry-item label {
-      display: none
-    }
-
     .unified_container .row .panel-default #api .localAccount .entry .entry-item input:focus {
       border: 2px solid #000
     }
@@ -1364,7 +1360,8 @@
 
     #attributeList ul li.EmailBox label:after,
      #attributeList ul li.Password label:after, 
-     #attributeList ul li.TextBox label::after {
+     #attributeList ul li.TextBox label::after,
+    .unified_container .row .panel-default #api .localAccount .entry .entry-item label:after {
     content: " *";
     color: #dc3545;
    }

@@ -57,3 +57,4 @@ function addSpanAfterTextBox() {
 
 addSpanAfterTextBox();
 disableCreateBtn();
+alert('test!');
